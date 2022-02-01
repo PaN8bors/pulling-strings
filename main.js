@@ -4,9 +4,13 @@ function main() {
     const mySplit = myName.split(' ');
     const first = myName.slice(0, 6);
     const last = myName.slice(7);
+    const nameArray = ['Parish', 'Allen', 'Neighbors'];
+    const arrayFirst = nameArray[0];
+    const arrayLast = nameArray[nameArray.length -1];
 
 
     console.log(myName);
+    console.log(`${arrayFirst} ${arrayLast}`);
     console.log(first + ' ' + 'Allen' + ' ' + last);
     console.log(`${first} Allen ${last}`);
     console.log(myName.replace('N', 'Allen N'));
@@ -17,7 +21,6 @@ function main() {
     console.log(myName.slice(7, 12));
     console.log(myName[0]);
     console.log(myName[7]);
-
 
 
 
